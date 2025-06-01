@@ -6,4 +6,4 @@ class XiaomiPipaDevice(XiaomiSM8250Device):
 	TARGET_KERNEL_FRAGMENTS = ["vendor/xiaomi/sm8250-common.config", f"vendor/xiaomi/{PRODUCT_DEVICE}.config"]
 	AB_OTA_UPDATER = True
 
-register_device(XiaomiAliothDevice)
+register_device(XiaomiPipaDevice)
